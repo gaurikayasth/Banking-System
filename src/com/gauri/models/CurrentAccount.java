@@ -45,7 +45,7 @@ public class CurrentAccount extends Account{
 	public void openAccount() {
 		System.out.println("\n-------------------------------------------------");
 		System.out.println("To open current account,please fill the details");
-		System.out.println("-------------------------------------------------");
+		System.out.println("---------------------------------------------------");
 		System.out.println("Enter the Account Number:");
 		Integer accNum=getScanner().nextInt();
 		System.out.println("Enter the Account Holder Name:");

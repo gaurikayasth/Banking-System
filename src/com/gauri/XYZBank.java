@@ -10,10 +10,17 @@ public class XYZBank {
 		Account[] a=new Account[0];
 		Scanner sc=new Scanner(System.in);
 		
+		System.out.println("\t\t\t\t\t================================================\n");
+	    System.out.println("\t\t\t\t\t||                  WELCOME TO                ||\n");
+	    System.out.println("\t\t\t\t\t||                                            ||\n");
+	    System.out.println("\t\t\t\t\t||           BANKING SYSTEM PROJECT           ||\n");
+	    System.out.println("\t\t\t\t\t||                                            ||\n");
+	    System.out.println("\t\t\t\t\t||        Developer : Gauri Shankar Kayasth   ||\n");
+	    System.out.println("\t\t\t\t\t================================================");
 		while(choice!=8)
 		{
-			System.out.println("\n\nBanking System Menu::");
-			System.out.println("==========================================");
+			System.out.println("\n\nMAIN MENU");
+			System.out.println("-------------------------");
 			System.out.println("1.Open Account");
 			System.out.println("2.Deposit Ammount");
 			System.out.println("3.Withdraw Ammount");
@@ -22,7 +29,7 @@ public class XYZBank {
 			System.out.println("6.Show All Accounts");
 			System.out.println("7.Close Account");
 			System.out.println("8.Exit");
-			System.out.println("==========================================");
+			System.out.println("-------------------------");
 			choice=sc.nextInt();
 			switch(choice)
 			{
